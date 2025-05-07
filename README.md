@@ -18,39 +18,39 @@ El proyecto está organizado en fases progresivas, comenzando con tareas más se
 
 ### Tarea 1.1: Configuración del Proyecto
 
-- [ ] Crear una nueva aplicación con Create React App
-- [ ] Limpiar los archivos iniciales innecesarios
-- [ ] Configurar Git y crear un repositorio
+- [✔] Crear una nueva aplicación con Create React App
+- [✔] Limpiar los archivos iniciales innecesarios
+- [✔] Configurar Git y crear un repositorio
 
 ### Tarea 1.2: Instalación de Dependencias
 
-- [ ] Instalar Tailwind CSS y configurarlo
-- [ ] Instalar React Router para la navegación
-- [ ] Crear la estructura de carpetas (components, pages, data, etc.)
+- [✔] Instalar Tailwind CSS y configurarlo
+- [✔] Instalar React Router para la navegación
+- [✔] Crear la estructura de carpetas (components, pages, data, etc.)
 
 ### Tarea 1.3: Creación del JSON de Productos
 
-- [ ] Crear archivo `products.json` con datos de ejemplo (nombre, precio, imagen, descripción, categoría)
-- [ ] Preparar imágenes de productos para su uso
+- [✔] Crear archivo `products.json` con datos de ejemplo (nombre, precio, imagen, descripción, categoría)
+- [✔] Preparar imágenes de productos para su uso
 
 ## Fase 2: Implementación de la Interfaz Básica
 
 ### Tarea 2.1: Diseño del Layout Principal
 
-- [ ] Crear componente de Navbar con logo y enlace al carrito
-- [ ] Diseñar un Footer simple
-- [ ] Implementar un layout que incluya ambos componentes
+- [✔] Crear componente de Navbar con logo y enlace al carrito
+- [✔] Diseñar un Footer simple
+- [✔] Implementar un layout que incluya ambos componentes
 
 ### Tarea 2.2: Página de Inicio y Listado de Productos
 
-- [ ] Crear página de inicio con mensaje de bienvenida
-- [ ] Implementar el componente `ProductList` que muestre todos los productos
-- [ ] Utilizar `useState` para almacenar la lista de productos
-- [ ] Usar `useEffect` para cargar los productos desde el JSON local
+- [✔] Crear página de inicio con mensaje de bienvenida
+- [✔] Implementar el componente `ProductList` que muestre todos los productos
+- [✔] Utilizar `useState` para almacenar la lista de productos
+- [✔] Usar `useEffect` para cargar los productos desde el JSON local
 
 ### Tarea 2.3: Componente de Tarjeta de Producto
 
-- [ ] Diseñar el componente `ProductCard` con Tailwind CSS
+- [✔] Diseñar el componente `ProductCard` con Tailwind CSS
 - [ ] Mostrar imagen, nombre, precio y botón "Añadir al carrito"
 - [ ] Implementar hover effects y animaciones básicas
 
