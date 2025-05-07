@@ -1,14 +1,24 @@
-// import "./App.css";
-import { Header } from "./sections/Header";
-import { MainContainer } from "./sections/MainContainer";
-import { Footer } from "./sections/Footer";
+// useContext
+import { ProviderCartContext } from "./contexts/CartContext";
+
+// components
+import { HomePage } from "./pages/HomePage";
+
+// rutas
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { MyCartShop } from "./pages/MyCartShop";
 
 function App() {
   return (
     <>
-      <Header />
-      <MainContainer />
-      <Footer />
+      <ProviderCartContext>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/MyCartShop" element={<MyCartShop />} />
+          </Routes>
+        </BrowserRouter>
+      </ProviderCartContext>
     </>
   );
 }
