@@ -51,15 +51,15 @@ El proyecto está organizado en fases progresivas, comenzando con tareas más se
 ### Tarea 2.3: Componente de Tarjeta de Producto
 
 - [✔] Diseñar el componente `ProductCard` con Tailwind CSS
-- [ ] Mostrar imagen, nombre, precio y botón "Añadir al carrito"
-- [ ] Implementar hover effects y animaciones básicas
+- [✔] Mostrar imagen, nombre, precio y botón "Añadir al carrito"
+- [✔] Implementar hover effects y animaciones básicas
 
 ## Fase 3: Funcionalidad del Carrito de Compras
 
 ### Tarea 3.1: Creación del Context para el Carrito
 
-- [ ] Implementar `CartContext` utilizando createContext
-- [ ] Crear un Provider con estado inicial vacío
+- [✔] Implementar `CartContext` utilizando createContext
+- [✔] Crear un Provider con estado inicial vacío
 - [ ] Implementar funciones básicas (añadir, eliminar, actualizar cantidad)
 
 ### Tarea 3.2: Persistencia con localStorage

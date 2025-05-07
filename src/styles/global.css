@@ -7,3 +7,25 @@
   --color-primary: #09375e;
   --color-secondary: #0e8ed7;
 }
+/* mostar dos lineas visbles en mis parrafos */
+.truncate-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* animacion de header */
+.header-page {
+  animation: scroll-blur both;
+  animation-timeline: scroll(root);
+  animation-range: 0 200px;
+}
+
+@keyframes scroll-blur {
+  100% {
+    background-color: #ffffff20;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 10px 10px #17171720;
+  }
+}

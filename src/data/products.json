@@ -4,7 +4,7 @@
       "id": "P001",
       "name": "Smartphone Galaxy X10",
       "price": 599.99,
-      "image": "https://m.media-amazon.com/images/I/61tntIFA+4L._AC_SL1322_.jpg",
+      "image": "/images/products/P001.webp",
       "description": "Smartphone de última generación con pantalla AMOLED de 6.5 pulgadas, cámara de 108MP y batería de 5000mAh",
       "category": "Electrónica"
     },
@@ -12,7 +12,7 @@
       "id": "P002",
       "name": "Zapatillas Running Pro",
       "price": 89.95,
-      "image": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8872d807/products/PU379383-01/PU379383-01-6.JPG",
+      "image": "/images/products/P002.webp",
       "description": "Zapatillas deportivas con tecnología de amortiguación avanzada, perfectas para corredores de larga distancia",
       "category": "Deportes"
     },
@@ -20,7 +20,7 @@
       "id": "P003",
       "name": "Set de Cocina Premium",
       "price": 149.5,
-      "image": "https://m.media-amazon.com/images/I/819rmwvldCL._AC_SL1500_.jpg",
+      "image": "/images/products/P003.webp",
       "description": "Juego de 5 ollas y 3 sartenes con recubrimiento antiadherente y mangos ergonómicos de acero inoxidable",
       "category": "Hogar"
     },
@@ -28,7 +28,7 @@
       "id": "P004",
       "name": "Portátil UltraBook Pro",
       "price": 1299.0,
-      "image": "https://m.media-amazon.com/images/I/41VF-uttWyL._AC_UF894,1000_QL80_.jpg",
+      "image": "/images/products/P004.webp",
       "description": "Portátil ultraligero con procesador de última generación, 16GB RAM, 512GB SSD y pantalla táctil de 14 pulgadas",
       "category": "Electrónica"
     },
@@ -36,7 +36,7 @@
       "id": "P005",
       "name": "Crema Hidratante Natural",
       "price": 24.95,
-      "image": "https://ncsltda.com/wp-content/uploads/2023/03/crema-hidratante-60g-1.jpg",
+      "image": "/images/products/P005.webp",
       "description": "Crema facial con ingredientes 100% naturales, extractos de aloe vera y aceite de argán para una hidratación profunda",
       "category": "Belleza"
     },
