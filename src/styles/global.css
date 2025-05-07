@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-lato: "Lato", sans-serif;
+
+  /* colors */
+  --color-primary: #09375e;
+  --color-secondary: #0e8ed7;
+}

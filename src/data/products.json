@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Smartphone Galaxy X10",
+      "price": 599.99,
+      "image": "https://m.media-amazon.com/images/I/61tntIFA+4L._AC_SL1322_.jpg",
+      "description": "Smartphone de última generación con pantalla AMOLED de 6.5 pulgadas, cámara de 108MP y batería de 5000mAh",
+      "category": "Electrónica"
+    },
+    {
+      "id": "P002",
+      "name": "Zapatillas Running Pro",
+      "price": 89.95,
+      "image": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8872d807/products/PU379383-01/PU379383-01-6.JPG",
+      "description": "Zapatillas deportivas con tecnología de amortiguación avanzada, perfectas para corredores de larga distancia",
+      "category": "Deportes"
+    },
+    {
+      "id": "P003",
+      "name": "Set de Cocina Premium",
+      "price": 149.5,
+      "image": "https://m.media-amazon.com/images/I/819rmwvldCL._AC_SL1500_.jpg",
+      "description": "Juego de 5 ollas y 3 sartenes con recubrimiento antiadherente y mangos ergonómicos de acero inoxidable",
+      "category": "Hogar"
+    },
+    {
+      "id": "P004",
+      "name": "Portátil UltraBook Pro",
+      "price": 1299.0,
+      "image": "https://m.media-amazon.com/images/I/41VF-uttWyL._AC_UF894,1000_QL80_.jpg",
+      "description": "Portátil ultraligero con procesador de última generación, 16GB RAM, 512GB SSD y pantalla táctil de 14 pulgadas",
+      "category": "Electrónica"
+    },
+    {
+      "id": "P005",
+      "name": "Crema Hidratante Natural",
+      "price": 24.95,
+      "image": "https://ncsltda.com/wp-content/uploads/2023/03/crema-hidratante-60g-1.jpg",
+      "description": "Crema facial con ingredientes 100% naturales, extractos de aloe vera y aceite de argán para una hidratación profunda",
+      "category": "Belleza"
+    },
+    {
+      "id": "P006",
+      "name": "Silla Ergonómica Deluxe",
+      "price": 249.99,
+      "image": "https://m.media-amazon.com/images/I/61Aqq2s+UwL._AC_UF894,1000_QL80_.jpg",
+      "description": "Silla de oficina con soporte lumbar ajustable, reposacabezas y mecanismo de inclinación sincronizado para máxima comodidad",
+      "category": "Muebles"
+    },
+    {
+      "id": "P007",
+      "name": "Batidora Multifunción Chef",
+      "price": 79.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzlcUz5yrdSc18jOWGcD7s_zIGNDYX1Q41A&s",
+      "description": "Batidora de vaso de 1000W con 5 velocidades, función pulse y accesorios para picar, moler y batir todo tipo de alimentos",
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": "P008",
+      "name": "Libro 'El Arte de la Estrategia'",
+      "price": 18.5,
+      "image": "https://m.media-amazon.com/images/I/41N82DT2S1L._AC_UF1000,1000_QL80_.jpg",
+      "description": "Best-seller sobre gestión empresarial y liderazgo con casos prácticos y herramientas para mejorar la toma de decisiones",
+      "category": "Libros"
+    },
+    {
+      "id": "P009",
+      "name": "Set de Jardín Sostenible",
+      "price": 45.75,
+      "image": "https://m.media-amazon.com/images/I/61T8jw7IhbL.jpg",
+      "description": "Kit completo para jardinería urbana con semillas orgánicas, macetas biodegradables y herramientas de bambú",
+      "category": "Jardín"
+    },
+    {
+      "id": "P010",
+      "name": "Reloj Inteligente FitTrack",
+      "price": 129.95,
+      "image": "https://m.media-amazon.com/images/I/61FQKRZrgTL._AC_UF894,1000_QL80_.jpg",
+      "description": "Smartwatch con monitor de ritmo cardíaco, GPS integrado, seguimiento de 15 actividades deportivas y resistencia al agua",
+      "category": "Accesorios"
+    },
+    {
+      "id": "P011",
+      "name": "Auriculares Noise Cancelling Pro",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "description": "Auriculares inalámbricos con cancelación activa de ruido, batería de 30 horas y almohadillas de memoria para máximo confort",
+      "category": "Audio"
+    },
+    {
+      "id": "P012",
+      "name": "Cafetera Espresso Deluxe",
+      "price": 349.5,
+      "image": "https://images.unsplash.com/photo-1517914008284-fb8572f6268f",
+      "description": "Máquina de café espresso profesional con 15 bares de presión, molinillo integrado y vaporizador para espumar leche",
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": "P013",
+      "name": "Mochila Viajera Impermeable",
+      "price": 79.95,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "description": "Mochila de 40L resistente al agua con compartimentos para portátil, tablet y múltiples bolsillos organizadores para viajes",
+      "category": "Viaje"
+    },
+    {
+      "id": "P014",
+      "name": "Juego de Mesa Estrategia Imperial",
+      "price": 54.99,
+      "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09",
+      "description": "Juego de estrategia para 2-5 jugadores con más de 200 piezas, tablero modular y partidas de 60-90 minutos de duración",
+      "category": "Juegos"
+    },
+    {
+      "id": "P015",
+      "name": "Aceite Esencial Set Premium",
+      "price": 39.95,
+      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108",
+      "description": "Colección de 10 aceites esenciales orgánicos en botellas ámbar de 10ml, incluye lavanda, eucalipto, menta y limón",
+      "category": "Bienestar"
+    },
+    {
+      "id": "P016",
+      "name": "Lámpara Solar de Jardín",
+      "price": 28.5,
+      "image": "https://images.unsplash.com/photo-1585314062604-1a357de8b000",
+      "description": "Pack de 4 lámparas solares LED para exterior con sensor de movimiento, impermeables y con 8 horas de autonomía",
+      "category": "Jardín"
+    },
+    {
+      "id": "P017",
+      "name": "Cámara Instantánea Retro",
+      "price": 89.9,
+      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+      "description": "Cámara fotográfica con impresión instantánea, flash automático, selfie mirror y modos de exposición múltiples",
+      "category": "Fotografía"
+    },
+    {
+      "id": "P018",
+      "name": "Set de Cuchillos Chef Professional",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546",
+      "description": "Juego de 6 cuchillos de acero alemán con bloque de madera, afilador y tijeras de cocina profesionales",
+      "category": "Cocina"
+    },
+    {
+      "id": "P019",
+      "name": "Teclado Mecánico Gaming RGB",
+      "price": 119.95,
+      "image": "https://images.unsplash.com/photo-1595044426077-d36d9128c002",
+      "description": "Teclado para gamers con switches mecánicos, retroiluminación RGB personalizable y teclas programables",
+      "category": "Gaming"
+    },
+    {
+      "id": "P020",
+      "name": "Pulsera Inteligente Fitness",
+      "price": 59.9,
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e3fd6ce",
+      "description": "Pulsera de actividad con monitor cardíaco, seguimiento del sueño, notificaciones y batería de hasta 7 días",
+      "category": "Salud"
+    },
+    {
+      "id": "P021",
+      "name": "Planta Purificadora de Aire",
+      "price": 35.25,
+      "image": "https://images.unsplash.com/photo-1600411192098-33d246bd445e",
+      "description": "Planta de interior Sansevieria en maceta de cerámica, ideal para purificar el aire y decorar espacios con poca luz",
+      "category": "Hogar"
+    },
+    {
+      "id": "P022",
+      "name": "Proyector Mini Portátil",
+      "price": 189.99,
+      "image": "https://images.unsplash.com/photo-1626379953822-baec19c3accd",
+      "description": "Proyector LED compacto con resolución 1080p, conexión WiFi, Bluetooth y batería integrada para 3 horas de uso",
+      "category": "Electrónica"
+    },
+    {
+      "id": "P023",
+      "name": "Kit de Pintura Acrílica Profesional",
+      "price": 49.95,
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f",
+      "description": "Set completo con 24 colores acrílicos, 12 pinceles, 2 lienzos, paleta y maletín de transporte",
+      "category": "Arte"
+    },
+    {
+      "id": "P024",
+      "name": "Botella Térmica Eco-friendly",
+      "price": 27.5,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+      "description": "Botella de acero inoxidable de 750ml que mantiene bebidas calientes 12h y frías 24h, libre de BPA y con diseño antifugas",
+      "category": "Sostenibilidad"
+    },
+    {
+      "id": "P025",
+      "name": "Drone Plegable con Cámara HD",
+      "price": 249.0,
+      "image": "https://images.unsplash.com/photo-1579829366248-204fe8413f31",
+      "description": "Drone compacto con cámara 4K, 25 minutos de vuelo, control por gestos y modo seguimiento automático",
+      "category": "Tecnología"
+    }
+  ]
+}
