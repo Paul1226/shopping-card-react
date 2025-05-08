@@ -60,7 +60,8 @@ El proyecto está organizado en fases progresivas, comenzando con tareas más se
 
 - [✔] Implementar `CartContext` utilizando createContext
 - [✔] Crear un Provider con estado inicial vacío
-- [ ] Implementar funciones básicas (añadir, eliminar, actualizar cantidad)
+- [✔] Implementar una nueva pagina para trabajar con rutas de `rect-router-dom`
+- [✔] Implementar funciones básicas (añadir, eliminar, actualizar cantidad)
 
 ### Tarea 3.2: Persistencia con localStorage
 
