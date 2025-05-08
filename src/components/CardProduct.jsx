@@ -12,7 +12,7 @@ export const CardProduct = ({
 }) => {
   const { addProduct } = useContext(CartContext);
 
-  const handleClickAddCart = () => {
+  const handleClickAdd = () => {
     addProduct({ id, name, price, image, description, category });
   };
   return (
@@ -35,7 +35,7 @@ export const CardProduct = ({
       </div>
       <div className="price-button flex justify-between items-center gap-2">
         <span className="font-bold text-sm">${price}</span>
-        <Button handleClickAdd={handleClickAddCart}>Añadir al carrito</Button>
+        <Button handleClickAction={handleClickAdd}>Añadir al carrito</Button>
       </div>
     </article>
   );
