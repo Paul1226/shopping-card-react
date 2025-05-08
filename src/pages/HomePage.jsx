@@ -4,10 +4,10 @@ import { Footer } from "../sections/Footer";
 
 export const HomePage = () => {
   return (
-    <>
+    <section>
       <Header />
       <MainContainer />
       <Footer />
-    </>
+    </section>
   );
 };

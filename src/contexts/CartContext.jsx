@@ -9,7 +9,7 @@ export const ProviderCartContext = ({ children }) => {
 
   // añadir
   const addProduct = (newProduct) => {
-    setListAdditions([...listAdditions, newProduct]);
+    setListAdditions((prev) => [...prev, newProduct]);
   };
 
   return (
