@@ -1,11 +1,16 @@
 @import "tailwindcss";
-
-@theme {
+@import "./scrollPage.css";
+:root {
   --font-lato: "Lato", sans-serif;
-
-  /* colors */
   --color-primary: #09375e;
   --color-secondary: #0e8ed7;
+}
+@theme {
+  --font-lato: var(--font-lato);
+
+  /* colors */
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
 }
 /* mostar dos lineas visbles en mis parrafos */
 .truncate-2-lines {
@@ -16,7 +21,7 @@
 }
 
 /* animacion de header */
-.header-page {
+.header-page-ss {
   animation: scroll-blur both;
   animation-timeline: scroll(root);
   animation-range: 0 200px;
@@ -26,6 +31,16 @@
   100% {
     background-color: #ffffff20;
     backdrop-filter: blur(20px);
-    box-shadow: 0 10px 10px #17171720;
+    /* box-shadow: 0 10px 10px #17171720; */
   }
+}
+
+.reset {
+  opacity: 0;
+  visibility: hidden;
+}
+
+input:not(:placeholder-shown) ~ .reset {
+  opacity: 1;
+  visibility: visible;
 }
