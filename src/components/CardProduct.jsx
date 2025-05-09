@@ -30,7 +30,7 @@ export const CardProduct = ({
         </figure>
       </div>
       <div className="info">
-        <h3 className="font-bold">{name}</h3>
+        <h3 className="font-bold truncate">{name}</h3>
         <p className="text-sm truncate-2-lines">{description}</p>
       </div>
       <div className="price-button flex justify-between items-center gap-2">

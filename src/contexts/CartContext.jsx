@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { products as PRODUCTS } from "../data/products.json";
 import { createContext, useState } from "react";
 
 export const CartContext = createContext();
@@ -6,6 +8,11 @@ export const CartContext = createContext();
 export const ProviderCartContext = ({ children }) => {
   // dentro del provider es donde se crean las funciones de acciones
   const [listAdditions, setListAdditions] = useState([]);
+  const [filterList, setFilterList] = useState([]);
+
+  useEffect(() => {
+    setFilterList(PRODUCTS);
+  }, [filterList]);
 
   // añadir
   const addProduct = (newProduct) => {
@@ -13,8 +20,6 @@ export const ProviderCartContext = ({ children }) => {
     const isProductInCart = listAdditions.some(
       (product) => product.id === newProduct.id
     );
-
-    console.log(isProductInCart);
 
     if (isProductInCart) {
       setListAdditions((prev) =>
@@ -46,6 +51,8 @@ export const ProviderCartContext = ({ children }) => {
         addProduct,
         removeProduct,
         clearCart,
+        filterList,
+        setFilterList,
       }}
     >
       {children}

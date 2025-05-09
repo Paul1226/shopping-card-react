@@ -75,8 +75,11 @@ export const CardAdditionShop = ({
               ➕
             </Button>
           </div>
-          <p className="font-bold">$ {sumUni}</p>
-          <button className="" onClick={handleClickRemove}>
+          <p className="font-bold min-w-16">$ {sumUni.toFixed(2)}</p>
+          <button
+            className="cursor-pointer px-2 py-6"
+            onClick={handleClickRemove}
+          >
             ❌
           </button>
         </div>
