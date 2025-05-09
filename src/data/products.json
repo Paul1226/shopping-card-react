@@ -44,7 +44,7 @@
       "id": "P006",
       "name": "Silla Ergonómica Deluxe",
       "price": 249.99,
-      "image": "https://m.media-amazon.com/images/I/61Aqq2s+UwL._AC_UF894,1000_QL80_.jpg",
+      "image": "/images/products/P006.webp",
       "description": "Silla de oficina con soporte lumbar ajustable, reposacabezas y mecanismo de inclinación sincronizado para máxima comodidad",
       "category": "Muebles"
     },
@@ -52,7 +52,7 @@
       "id": "P007",
       "name": "Batidora Multifunción Chef",
       "price": 79.9,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzlcUz5yrdSc18jOWGcD7s_zIGNDYX1Q41A&s",
+      "image": "/images/products/P007.webp",
       "description": "Batidora de vaso de 1000W con 5 velocidades, función pulse y accesorios para picar, moler y batir todo tipo de alimentos",
       "category": "Electrodomésticos"
     },
@@ -60,7 +60,7 @@
       "id": "P008",
       "name": "Libro 'El Arte de la Estrategia'",
       "price": 18.5,
-      "image": "https://m.media-amazon.com/images/I/41N82DT2S1L._AC_UF1000,1000_QL80_.jpg",
+      "image": "/images/products/P008.webp",
       "description": "Best-seller sobre gestión empresarial y liderazgo con casos prácticos y herramientas para mejorar la toma de decisiones",
       "category": "Libros"
     },
@@ -68,7 +68,7 @@
       "id": "P009",
       "name": "Set de Jardín Sostenible",
       "price": 45.75,
-      "image": "https://m.media-amazon.com/images/I/61T8jw7IhbL.jpg",
+      "image": "/images/products/P009.webp",
       "description": "Kit completo para jardinería urbana con semillas orgánicas, macetas biodegradables y herramientas de bambú",
       "category": "Jardín"
     },

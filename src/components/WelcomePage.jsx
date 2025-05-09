@@ -1,6 +1,11 @@
 export const WelcomePage = ({ children }) => {
   return (
-    <div className="flex flex-col items-center justify-center bg-neutral-200 py-15 relative overflow-hidden">
+    <div className="flex flex-col items-center justify-center py-20 relative overflow-hidden">
+      <img
+        className="absolute object-cover"
+        src="/images/hero.webp"
+        alt="Imagen hero de la página"
+      />
       <span className="shop-text absolute -bottom-3 text-white font-bold text-[clamp(10rem,20vw,17rem)] bg-red-00 text-center leading-none">
         Shop
       </span>

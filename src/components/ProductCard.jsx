@@ -1,5 +1,7 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { ShoppingCart } from "../contexts/ShoppingCartContext";
+
+import { Skeleton } from "./Skeleton";
 import { ButtonsPages } from "./ButtonsPages";
 
 export const ProductCard = ({
@@ -11,6 +13,7 @@ export const ProductCard = ({
   category,
 }) => {
   const { addProduct } = useContext(ShoppingCart);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleClickAdd = () => {
     addProduct({ id, name, price, image, description, category });
@@ -22,10 +25,13 @@ export const ProductCard = ({
       </span>
       <div className="image overflow-hidden rounded-lg bg-neutral-200 transition-shadow duration-200 ease-in-out group-hover:shadow-xl group-hover:shadow-neutral-900/20">
         <figure className="aspect-square ">
+          {isLoading && <Skeleton />}
           <img
             className="w-full h-full object-cover"
             src={image}
             alt={`Imagen producto de ${name}`}
+            onLoad={() => setIsLoading(false)}
+            style={{ display: isLoading ? "none" : "block" }}
           />
         </figure>
       </div>

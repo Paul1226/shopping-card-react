@@ -20,7 +20,7 @@ export const ProductCatalog = () => {
         </h2>
         <ProductSearch />
       </div>
-      <div className="sticky top-16 z-10 bg-white">
+      <div className="sticky top-16 z-10 bg-white pb-5">
         <p className="font-bold text-xl">Categorías</p>
         <CategoryFilter
           categorySelect={categorySelect}
