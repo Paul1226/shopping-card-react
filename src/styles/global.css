@@ -5,6 +5,7 @@
   --color-primary: #09375e;
   --color-secondary: #0e8ed7;
 }
+
 @theme {
   --font-lato: var(--font-lato);
 
@@ -12,6 +13,7 @@
   --color-primary: var(--color-primary);
   --color-secondary: var(--color-secondary);
 }
+
 /* mostar dos lineas visbles en mis parrafos */
 .truncate-2-lines {
   display: -webkit-box;
@@ -31,7 +33,6 @@
   100% {
     background-color: #ffffff20;
     backdrop-filter: blur(20px);
-    /* box-shadow: 0 10px 10px #17171720; */
   }
 }
 
@@ -43,4 +44,12 @@
 input:not(:placeholder-shown) ~ .reset {
   opacity: 1;
   visibility: visible;
+}
+
+/* CategoryFilter */
+/* boton activo */
+.button-category.active {
+  background-color: #171717;
+  color: white;
+  font-weight: 700;
 }
