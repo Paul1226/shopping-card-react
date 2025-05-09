@@ -1,6 +1,6 @@
 import { products as PRODUCTS } from "../data/products.json";
 
-export const NavFilter = ({ setCategorySelect }) => {
+export const CategoryFilter = ({ setCategorySelect }) => {
   const categories = [
     "Todas",
     ...new Set(PRODUCTS.map((product) => product.category)),

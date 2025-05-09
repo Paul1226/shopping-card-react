@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { CartContext } from "../contexts/CartContext";
-import { Button } from "./ButtonAddOrBuy";
+import { ShoppingCart } from "../contexts/ShoppingCartContext";
+import { ButtonsPages } from "./ButtonsPages";
 
-export const CardProduct = ({
+export const ProductCard = ({
   id,
   name,
   price,
@@ -10,7 +10,7 @@ export const CardProduct = ({
   description,
   category,
 }) => {
-  const { addProduct } = useContext(CartContext);
+  const { addProduct } = useContext(ShoppingCart);
 
   const handleClickAdd = () => {
     addProduct({ id, name, price, image, description, category });
@@ -35,7 +35,9 @@ export const CardProduct = ({
       </div>
       <div className="price-button flex justify-between items-center gap-2">
         <span className="font-bold text-sm">${price}</span>
-        <Button handleClickAction={handleClickAdd}>Añadir al carrito</Button>
+        <ButtonsPages handleClickAction={handleClickAdd}>
+          Añadir al carrito
+        </ButtonsPages>
       </div>
     </article>
   );

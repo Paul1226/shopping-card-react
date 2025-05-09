@@ -1,10 +1,10 @@
 import { Navbar } from "../components/Navbar.jsx";
-import { NumberAdditions } from "../components/NumberAdditions.jsx";
+import { CartItemCounter } from "../components/CartItemCounter.jsx";
 import { IconCart } from "../components/Icons.jsx";
 import { LogoPage } from "../components/LogoPage.jsx";
 import { Link } from "react-router-dom";
 
-export const Header = () => {
+export const NavigationHeader = () => {
   return (
     <header className="sticky top-0 z-20 bg-white header-page">
       <div className="flex justify-between items-center w-full max-w-6xl mx-auto px-5 py-2">
@@ -14,10 +14,10 @@ export const Header = () => {
         <Navbar />
         <Link
           className="icon-carrito relative cursor-pointer"
-          to="/MyCartShop"
+          to="/ShoppingCartPage"
           onClick={() => window.scrollTo(0, 0)}
         >
-          <NumberAdditions />
+          <CartItemCounter />
           <IconCart />
         </Link>
       </div>

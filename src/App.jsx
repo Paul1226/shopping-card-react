@@ -1,24 +1,24 @@
 // useContext
-import { ProviderCartContext } from "./contexts/CartContext";
+import { ShoppingCartProvider } from "./contexts/ShoppingCartContext";
 
 // components
-import { HomePage } from "./pages/HomePage";
+import { ProductCatalogPage } from "./pages/ProductCatalogPage";
 
 // rutas
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { MyCartShop } from "./pages/MyCartShop";
+import { ShoppingCartPage } from "./pages/ShoppingCartPage";
 
 function App() {
   return (
     <>
-      <ProviderCartContext>
+      <ShoppingCartProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/MyCartShop" element={<MyCartShop />} />
+            <Route path="/" element={<ProductCatalogPage />} />
+            <Route path="/ShoppingCartPage" element={<ShoppingCartPage />} />
           </Routes>
         </BrowserRouter>
-      </ProviderCartContext>
+      </ShoppingCartProvider>
     </>
   );
 }

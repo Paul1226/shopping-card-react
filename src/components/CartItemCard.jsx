@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { CartContext } from "../contexts/CartContext";
+import { ShoppingCart } from "../contexts/ShoppingCartContext";
 
-import { Button } from "./ButtonAddOrBuy";
+import { ButtonsPages } from "./ButtonsPages";
 
-export const CardAdditionShop = ({
+export const CartItemCard = ({
   id,
   name,
   price,
@@ -11,10 +11,10 @@ export const CardAdditionShop = ({
   category,
   quantity,
 }) => {
-  const { listAdditions, setListAdditions, removeProduct } =
-    useContext(CartContext);
+  const { cartProducts, setCartProducts, removeProduct } =
+    useContext(ShoppingCart);
 
-  const findProduct = listAdditions.find((product) => product.id === id);
+  const findProduct = cartProducts.find((product) => product.id === id);
   const sumUni = findProduct ? findProduct.price * findProduct.quantity : 0;
 
   const handleClickRemove = () => {
@@ -23,17 +23,17 @@ export const CardAdditionShop = ({
 
   // sumar cantidad por bottom
   const sumQuantity = () => {
-    const undateList = listAdditions.map((product) =>
+    const undateList = cartProducts.map((product) =>
       product.id === id
         ? { ...product, quantity: product.quantity + 1 }
         : product
     );
 
-    setListAdditions(undateList);
+    setCartProducts(undateList);
   };
   // restar cantidad por bottom
   const restQuantity = () => {
-    const updatedList = listAdditions.map((product) =>
+    const updatedList = cartProducts.map((product) =>
       product.id === id
         ? {
             ...product,
@@ -42,7 +42,7 @@ export const CardAdditionShop = ({
         : product
     );
 
-    setListAdditions(updatedList);
+    setCartProducts(updatedList);
   };
   return (
     <article className="flex items-center justify-between gap-3 bg-neutral-200 p-2 rounded-lg relative">
@@ -67,13 +67,13 @@ export const CardAdditionShop = ({
         <div className="flex justify-between items-center gap-10">
           <p className="font-bold">$ {price.toFixed(2)}</p>
           <div className="quantity flex items-center justify-between w-max gap-2">
-            <Button variant="quantity" handleClickAction={restQuantity}>
+            <ButtonsPages variant="quantity" handleClickAction={restQuantity}>
               ➖
-            </Button>
+            </ButtonsPages>
             <span className="font-bold px-3">{quantity}</span>
-            <Button variant="quantity" handleClickAction={sumQuantity}>
+            <ButtonsPages variant="quantity" handleClickAction={sumQuantity}>
               ➕
-            </Button>
+            </ButtonsPages>
           </div>
           <p className="font-bold min-w-16">$ {sumUni.toFixed(2)}</p>
           <button

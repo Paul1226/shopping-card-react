@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const PageFooter = () => {
   return (
     <footer className="bg-sky-950 text-neutral-100 w-full p-2">
       <p>© 2023 Shopping Card App. Todos los derechos reservados.</p>

@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import { CartContext } from "../contexts/CartContext";
+import { ShoppingCart } from "../contexts/ShoppingCartContext";
 
-export const TotalSumShop = () => {
-  const { listAdditions } = useContext(CartContext);
+export const CartTotalSummary = () => {
+  const { cartProducts } = useContext(ShoppingCart);
 
   // reduce recorre por cada uno y los va sumando, necesita un acumulador y un valor inicial
-  const totalSum = listAdditions.reduce(
+  const totalSum = cartProducts.reduce(
     (acc, product) => acc + product.price * product.quantity,
     0
   );
