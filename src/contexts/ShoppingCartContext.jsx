@@ -9,10 +9,12 @@ export const ShoppingCartProvider = ({ children }) => {
   // dentro del provider es donde se crean las funciones de acciones
   const [cartProducts, setCartProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
+  const [allProducts, setAllProducts] = useState([]);
 
   useEffect(() => {
+    setAllProducts(PRODUCTS);
     setFilteredProducts(PRODUCTS);
-  }, [filteredProducts]);
+  }, []);
 
   // añadir
   const addProduct = (newProduct) => {
@@ -53,6 +55,8 @@ export const ShoppingCartProvider = ({ children }) => {
         clearCart,
         filteredProducts,
         setFilteredProducts,
+        allProducts,
+        setAllProducts,
       }}
     >
       {children}

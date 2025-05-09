@@ -18,7 +18,7 @@ export const ProductCatalog = () => {
         <h2 className="text-3xl font-bold text-secondary text-balance">
           Para todas tus necesidades
         </h2>
-        <ProductSearch />
+        <ProductSearch categorySelect={categorySelect} />
       </div>
       <div className="sticky top-16 z-10 bg-white pb-5">
         <p className="font-bold text-xl">Categorías</p>
@@ -28,9 +28,11 @@ export const ProductCatalog = () => {
         />
       </div>
       <div className="container-list grid [grid-template-columns:repeat(auto-fill,minmax(200px,1fr))] gap-5">
-        {filterProduct.map((product) => (
-          <ProductCard key={product.id} {...product} />
-        ))}
+        {filterProduct.length === 0 ? (
+          <p>No hemos podido encotrar productos ...</p>
+        ) : (
+          filterProduct.map((prod) => <ProductCard key={prod.id} {...prod} />)
+        )}
       </div>
     </section>
   );

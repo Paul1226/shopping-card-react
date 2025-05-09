@@ -4,7 +4,7 @@
       "id": "P001",
       "name": "Smartphone Galaxy X10",
       "price": 599.99,
-      "image": "/images/products/P001.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829408/P001_icmfp6.webp",
       "description": "Smartphone de última generación con pantalla AMOLED de 6.5 pulgadas, cámara de 108MP y batería de 5000mAh",
       "category": "Electrónica"
     },
@@ -12,7 +12,7 @@
       "id": "P002",
       "name": "Zapatillas Running Pro",
       "price": 89.95,
-      "image": "/images/products/P002.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829413/P002_dapspz.webp",
       "description": "Zapatillas deportivas con tecnología de amortiguación avanzada, perfectas para corredores de larga distancia",
       "category": "Deportes"
     },
@@ -20,7 +20,7 @@
       "id": "P003",
       "name": "Set de Cocina Premium",
       "price": 149.5,
-      "image": "/images/products/P003.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829428/P003_npkfgz.webp",
       "description": "Juego de 5 ollas y 3 sartenes con recubrimiento antiadherente y mangos ergonómicos de acero inoxidable",
       "category": "Hogar"
     },
@@ -28,7 +28,7 @@
       "id": "P004",
       "name": "Portátil UltraBook Pro",
       "price": 1299.0,
-      "image": "/images/products/P004.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829428/P004_ouasqn.webp",
       "description": "Portátil ultraligero con procesador de última generación, 16GB RAM, 512GB SSD y pantalla táctil de 14 pulgadas",
       "category": "Electrónica"
     },
@@ -36,7 +36,7 @@
       "id": "P005",
       "name": "Crema Hidratante Natural",
       "price": 24.95,
-      "image": "/images/products/P005.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829428/P005_cf3k9i.webp",
       "description": "Crema facial con ingredientes 100% naturales, extractos de aloe vera y aceite de argán para una hidratación profunda",
       "category": "Belleza"
     },
@@ -44,7 +44,7 @@
       "id": "P006",
       "name": "Silla Ergonómica Deluxe",
       "price": 249.99,
-      "image": "/images/products/P006.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829428/P006_f6tthm.webp",
       "description": "Silla de oficina con soporte lumbar ajustable, reposacabezas y mecanismo de inclinación sincronizado para máxima comodidad",
       "category": "Muebles"
     },
@@ -52,7 +52,7 @@
       "id": "P007",
       "name": "Batidora Multifunción Chef",
       "price": 79.9,
-      "image": "/images/products/P007.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829429/P007_uqvlcy.webp",
       "description": "Batidora de vaso de 1000W con 5 velocidades, función pulse y accesorios para picar, moler y batir todo tipo de alimentos",
       "category": "Electrodomésticos"
     },
@@ -60,7 +60,7 @@
       "id": "P008",
       "name": "Libro 'El Arte de la Estrategia'",
       "price": 18.5,
-      "image": "/images/products/P008.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829429/P008_fpgi1y.webp",
       "description": "Best-seller sobre gestión empresarial y liderazgo con casos prácticos y herramientas para mejorar la toma de decisiones",
       "category": "Libros"
     },
@@ -68,7 +68,7 @@
       "id": "P009",
       "name": "Set de Jardín Sostenible",
       "price": 45.75,
-      "image": "/images/products/P009.webp",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746829429/P009_jouhm5.webp",
       "description": "Kit completo para jardinería urbana con semillas orgánicas, macetas biodegradables y herramientas de bambú",
       "category": "Jardín"
     },
@@ -76,7 +76,7 @@
       "id": "P010",
       "name": "Reloj Inteligente FitTrack",
       "price": 129.95,
-      "image": "https://m.media-amazon.com/images/I/61FQKRZrgTL._AC_UF894,1000_QL80_.jpg",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746830130/P010_hdbvti.webp",
       "description": "Smartwatch con monitor de ritmo cardíaco, GPS integrado, seguimiento de 15 actividades deportivas y resistencia al agua",
       "category": "Accesorios"
     },
@@ -84,7 +84,7 @@
       "id": "P011",
       "name": "Auriculares Noise Cancelling Pro",
       "price": 199.99,
-      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746830130/P011_ye6pvn.webp",
       "description": "Auriculares inalámbricos con cancelación activa de ruido, batería de 30 horas y almohadillas de memoria para máximo confort",
       "category": "Audio"
     },
@@ -92,7 +92,7 @@
       "id": "P012",
       "name": "Cafetera Espresso Deluxe",
       "price": 349.5,
-      "image": "https://images.unsplash.com/photo-1517914008284-fb8572f6268f",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746830130/P012_aqilpd.webp",
       "description": "Máquina de café espresso profesional con 15 bares de presión, molinillo integrado y vaporizador para espumar leche",
       "category": "Electrodomésticos"
     },
