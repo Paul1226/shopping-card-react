@@ -22,30 +22,6 @@
   overflow: hidden;
 }
 
-/* animacion de header */
-.header-page-ss {
-  animation: scroll-blur both;
-  animation-timeline: scroll(root);
-  animation-range: 0 200px;
-}
-
-@keyframes scroll-blur {
-  100% {
-    background-color: #ffffff20;
-    backdrop-filter: blur(20px);
-  }
-}
-
-.reset {
-  opacity: 0;
-  visibility: hidden;
-}
-
-input:not(:placeholder-shown) ~ .reset {
-  opacity: 1;
-  visibility: visible;
-}
-
 /* CategoryFilter */
 /* boton activo */
 .button-category.active {
