@@ -9,11 +9,26 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
+  background: #00000010;
   border-radius: 3px;
 }
 
 body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+}
+
+/* scroll x categories */
+.slider-scroll-x::-webkit-scrollbar {
+  height: var(--sb-size);
+}
+
+.slider-scroll-x::-webkit-scrollbar-track {
+  background: #00000010;
+  border-radius: 3px;
+}
+
+.slider-scroll-x::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 3px;
 }

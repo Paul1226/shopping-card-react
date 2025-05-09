@@ -15,8 +15,8 @@ export const ProductCatalog = () => {
   return (
     <div className="w-full max-w-6xl mx-auto py-8 px-5 flex flex-col gap-4">
       <div className="flex justify-between items-center gap-2">
-        <h2 className="text-3xl font-bold text-secondary">
-          Todos los Productos
+        <h2 className="text-3xl font-bold text-secondary text-balance">
+          Para todas tus necesidades
         </h2>
         <ProductSearch />
       </div>

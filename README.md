@@ -71,30 +71,30 @@ El proyecto está organizado en fases progresivas, comenzando con tareas más se
 
 ### Tarea 3.3: Componente del Carrito
 
-- [ ] Crear página para mostrar los productos en el carrito
-- [ ] Implementar la visualización de productos añadidos
-- [ ] Añadir botones para incrementar/decrementar cantidad
-- [ ] Añadir botón para eliminar productos del carrito
+- [✔] Crear página para mostrar los productos en el carrito
+- [✔] Implementar la visualización de productos añadidos
+- [✔] Añadir botones para incrementar/decrementar cantidad
+- [✔] Añadir botón para eliminar productos del carrito
 
 ## Fase 4: Mejoras en la Experiencia de Usuario
 
 ### Tarea 4.1: Filtrado de Productos
 
-- [ ] Agregar filtros por categoría utilizando botones o select
+- [✔] Agregar filtros por categoría utilizando botones o select
 - [ ] Implementar una barra de búsqueda simple
-- [ ] Usar `useState` para gestionar el estado de los filtros
+- [✔] Usar `useState` para gestionar el estado de los filtros
 
 ### Tarea 4.2: Detalles de Producto
 
 - [ ] Crear página de detalles de producto
-- [ ] Implementar navegación con React Router y parámetros URL
+- [✔] Implementar navegación con React Router y parámetros URL
 - [ ] Mostrar información detallada del producto seleccionado
 
 ### Tarea 4.3: Resumen del Carrito
 
-- [ ] Añadir contador de productos en el icono del carrito
+- [✔] Añadir contador de productos en el icono del carrito
 - [ ] Calcular y mostrar subtotal, IVA y total
-- [ ] Implementar un botón de "Vaciar carrito"
+- [✔] Implementar un botón de "Vaciar carrito"
 
 ## Fase 5: Simulación de Checkout
 
@@ -107,7 +107,7 @@ El proyecto está organizado en fases progresivas, comenzando con tareas más se
 ### Tarea 5.2: Página de Resumen
 
 - [ ] Crear página de resumen de la compra
-- [ ] Mostrar productos seleccionados, cantidades y precios
+- [✔] Mostrar productos seleccionados, cantidades y precios
 - [ ] Mostrar un resumen de la información del cliente
 
 ### Tarea 5.3: Confirmación
