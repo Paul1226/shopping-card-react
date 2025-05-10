@@ -100,7 +100,7 @@
       "id": "P013",
       "name": "Mochila Viajera Impermeable",
       "price": 79.95,
-      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839080/p013_qzto9o.webp",
       "description": "Mochila de 40L resistente al agua con compartimentos para portátil, tablet y múltiples bolsillos organizadores para viajes",
       "category": "Viaje"
     },
@@ -108,7 +108,7 @@
       "id": "P014",
       "name": "Juego de Mesa Estrategia Imperial",
       "price": 54.99,
-      "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839069/P014_qfgwr0.webp",
       "description": "Juego de estrategia para 2-5 jugadores con más de 200 piezas, tablero modular y partidas de 60-90 minutos de duración",
       "category": "Juegos"
     },
@@ -116,7 +116,7 @@
       "id": "P015",
       "name": "Aceite Esencial Set Premium",
       "price": 39.95,
-      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839070/P015_qizzxt.webp",
       "description": "Colección de 10 aceites esenciales orgánicos en botellas ámbar de 10ml, incluye lavanda, eucalipto, menta y limón",
       "category": "Bienestar"
     },
@@ -124,7 +124,7 @@
       "id": "P016",
       "name": "Lámpara Solar de Jardín",
       "price": 28.5,
-      "image": "https://images.unsplash.com/photo-1585314062604-1a357de8b000",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839070/P016_r26gio.webp",
       "description": "Pack de 4 lámparas solares LED para exterior con sensor de movimiento, impermeables y con 8 horas de autonomía",
       "category": "Jardín"
     },
@@ -132,7 +132,7 @@
       "id": "P017",
       "name": "Cámara Instantánea Retro",
       "price": 89.9,
-      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839071/P017_jqxf5v.webp",
       "description": "Cámara fotográfica con impresión instantánea, flash automático, selfie mirror y modos de exposición múltiples",
       "category": "Fotografía"
     },
@@ -140,7 +140,7 @@
       "id": "P018",
       "name": "Set de Cuchillos Chef Professional",
       "price": 129.99,
-      "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839072/P018_ojaqw5.webp",
       "description": "Juego de 6 cuchillos de acero alemán con bloque de madera, afilador y tijeras de cocina profesionales",
       "category": "Cocina"
     },
@@ -148,7 +148,7 @@
       "id": "P019",
       "name": "Teclado Mecánico Gaming RGB",
       "price": 119.95,
-      "image": "https://images.unsplash.com/photo-1595044426077-d36d9128c002",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839073/P020_wqzrps.webp",
       "description": "Teclado para gamers con switches mecánicos, retroiluminación RGB personalizable y teclas programables",
       "category": "Gaming"
     },
@@ -156,7 +156,7 @@
       "id": "P020",
       "name": "Pulsera Inteligente Fitness",
       "price": 59.9,
-      "image": "https://images.unsplash.com/photo-1575311373937-040b8e3fd6ce",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839074/P021_fkxryl.webp",
       "description": "Pulsera de actividad con monitor cardíaco, seguimiento del sueño, notificaciones y batería de hasta 7 días",
       "category": "Salud"
     },
@@ -164,7 +164,7 @@
       "id": "P021",
       "name": "Planta Purificadora de Aire",
       "price": 35.25,
-      "image": "https://images.unsplash.com/photo-1600411192098-33d246bd445e",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839075/P022_zszfjo.webp",
       "description": "Planta de interior Sansevieria en maceta de cerámica, ideal para purificar el aire y decorar espacios con poca luz",
       "category": "Hogar"
     },
@@ -172,7 +172,7 @@
       "id": "P022",
       "name": "Proyector Mini Portátil",
       "price": 189.99,
-      "image": "https://images.unsplash.com/photo-1626379953822-baec19c3accd",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839076/P023_tcotez.webp",
       "description": "Proyector LED compacto con resolución 1080p, conexión WiFi, Bluetooth y batería integrada para 3 horas de uso",
       "category": "Electrónica"
     },
@@ -180,7 +180,7 @@
       "id": "P023",
       "name": "Kit de Pintura Acrílica Profesional",
       "price": 49.95,
-      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839077/P024_aqa0ys.webp",
       "description": "Set completo con 24 colores acrílicos, 12 pinceles, 2 lienzos, paleta y maletín de transporte",
       "category": "Arte"
     },
@@ -188,7 +188,7 @@
       "id": "P024",
       "name": "Botella Térmica Eco-friendly",
       "price": 27.5,
-      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839078/P025_wqfwh3.webp",
       "description": "Botella de acero inoxidable de 750ml que mantiene bebidas calientes 12h y frías 24h, libre de BPA y con diseño antifugas",
       "category": "Sostenibilidad"
     },
@@ -196,7 +196,7 @@
       "id": "P025",
       "name": "Drone Plegable con Cámara HD",
       "price": 249.0,
-      "image": "https://images.unsplash.com/photo-1579829366248-204fe8413f31",
+      "image": "https://res.cloudinary.com/di2fo6cj8/image/upload/v1746839079/P026_tyff2m.webp",
       "description": "Drone compacto con cámara 4K, 25 minutos de vuelo, control por gestos y modo seguimiento automático",
       "category": "Tecnología"
     }

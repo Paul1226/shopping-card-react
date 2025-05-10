@@ -59,25 +59,25 @@ export const CartItemCard = ({
         </figure>
       </div>
 
-      <div className=" w-full flex justify-between items-center gap-2">
+      <div className=" w-full flex justify-between items-center gap-2 flex-col md:flex-row">
         <div className="information flex-flex-col">
           <h3 className="font-bold">{name}</h3>
         </div>
 
-        <div className="flex justify-between items-center gap-10">
-          <p className="font-bold">$ {price.toFixed(2)}</p>
+        <div className="flex justify-center items-center flex-col gap-2 md:flex-row md:gap-6">
+          <p className="font-bold min-w-16">$ {price.toFixed(2)}</p>
           <div className="quantity flex items-center justify-between w-max gap-2">
             <ButtonsPages variant="quantity" handleClickAction={restQuantity}>
               ➖
             </ButtonsPages>
-            <span className="font-bold px-3">{quantity}</span>
+            <span className="font-bold px-2">{quantity}</span>
             <ButtonsPages variant="quantity" handleClickAction={sumQuantity}>
               ➕
             </ButtonsPages>
           </div>
-          <p className="font-bold min-w-16">$ {sumUni.toFixed(2)}</p>
+          <p className="font-bold min-w-16 p-3">$ {sumUni.toFixed(2)}</p>
           <button
-            className="cursor-pointer px-2 py-6"
+            className="cursor-pointer md:p-3 md:pr-4"
             onClick={handleClickRemove}
           >
             ❌
