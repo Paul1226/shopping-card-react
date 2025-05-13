@@ -5,10 +5,10 @@ import { ButtonsPages } from "./ButtonsPages";
 
 export const CartItemCard = ({
   id,
-  name,
+  title,
   price,
-  image,
-  category,
+  url_image,
+  category_id,
   quantity,
 }) => {
   const { cartProducts, setCartProducts, removeProduct } =
@@ -47,25 +47,25 @@ export const CartItemCard = ({
   return (
     <article className="flex items-center justify-between gap-3 bg-neutral-200 p-2 rounded-lg relative">
       <span className="absolute top-2 left-2 bg-white rounded-full p-1 px-2 border border-neutral-200 text-[10px] shadow-lg shadow-neutral-900/20 font-bold">
-        {category}
+        {category_id}
       </span>
       <div className="image">
         <figure className="aspect-square min-w-24 w-ful h-full max-w-36">
           <img
             className="w-full object-cover h-full"
-            src={image}
-            alt={`Imagen de ${name}`}
+            src={url_image}
+            alt={`Imagen de ${title}`}
           />
         </figure>
       </div>
 
       <div className=" w-full flex justify-between items-center gap-2 flex-col md:flex-row">
         <div className="information flex-flex-col">
-          <h3 className="font-bold">{name}</h3>
+          <h3 className="font-bold">{title}</h3>
         </div>
 
         <div className="flex justify-center items-center flex-col gap-2 md:flex-row md:gap-6">
-          <p className="font-bold min-w-16">$ {price.toFixed(2)}</p>
+          <p className="font-bold min-w-16">$ {price}</p>
           <div className="quantity flex items-center justify-between w-max gap-2">
             <ButtonsPages variant="quantity" handleClickAction={restQuantity}>
               ➖

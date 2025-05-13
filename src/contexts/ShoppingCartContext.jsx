@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { products as PRODUCTS } from "../data/products.json";
+// import { products as PRODUCTS } from "../data/products.json";
+import { getProducts } from "../api/getProducts";
 import { createContext, useState } from "react";
 
 export const ShoppingCart = createContext();
@@ -12,8 +13,16 @@ export const ShoppingCartProvider = ({ children }) => {
   const [allProducts, setAllProducts] = useState([]);
 
   useEffect(() => {
-    setAllProducts(PRODUCTS);
-    setFilteredProducts(PRODUCTS);
+    const fetchData = async () => {
+      const result = await getProducts();
+      if (result.length === 0) {
+        console.log("Lista de productos vacía");
+      } else {
+        setAllProducts(result);
+        setFilteredProducts(result);
+      }
+    };
+    fetchData();
   }, []);
 
   // añadir
